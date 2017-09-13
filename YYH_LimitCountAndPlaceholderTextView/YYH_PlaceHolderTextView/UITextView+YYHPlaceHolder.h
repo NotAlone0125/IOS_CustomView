@@ -1,0 +1,21 @@
+//
+//  UITextView+YYHPlaceHolder.h
+//  YYH_LimitCountAndPlaceholderTextView
+//
+//  Created by 杨昱航 on 2017/6/13.
+//  Copyright © 2017年 杨昱航. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UITextView (YYHPlaceHolder)
+/** placeHolder*/
+@property (nonatomic, copy) NSString *YYH_placeHolder;
+/** placeHolderColor*/
+@property (nonatomic, strong) UIColor *YYH_placeHolderColor;
+/** placeHolderLabel*/
+@property (nonatomic, readonly) UILabel *YYH_placeHolderLabel;
+
+
+
+@end
